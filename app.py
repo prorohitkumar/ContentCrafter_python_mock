@@ -87,5 +87,5 @@ def generate_questions():
     # Return the generated questions as JSON response
     return jsonify({'questions': interview_questions})
 
-if __name__ == '__main__':
-    app.run(debug=True, host="0.0.0.0")
+# if __name__ == '__main__':
+#     app.run(debug=True, host="0.0.0.0")
